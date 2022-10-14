@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Close Example</title>
+    <script src="./dist/index.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="faq-open-close open-close">
+        <div class="opener">
+            <h3>Title 1</h3>
+            <div class="content">
+                <p><a href="https://google.com" target="_blank">Lorem ipsum </a>dolor sit amet consectetur adipisicing elit. Ad, vitae accusamus deleniti voluptatibus laboriosam maiores repellendus ratione? Illo quisquam, ullam mollitia architecto natus ipsam reiciendis sit itaque error maxime vitae.</p>
+            </div>
+        </div>
+        <div class="opener">
+            <h3>Title 2</h3>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae accusamus deleniti voluptatibus laboriosam maiores repellendus ratione? Illo quisquam, ullam mollitia architecto natus ipsam reiciendis sit itaque error maxime vitae.</p>
+            </div>
+        </div>
+        <div class="opener">
+            <h3>Title 3</h3>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae accusamus deleniti voluptatibus laboriosam maiores repellendus ratione? Illo quisquam, ullam mollitia architecto natus ipsam reiciendis sit itaque error maxime vitae.</p>
+            </div>
+        </div>
+        <div class="opener">
+            <h3>Title 4</h3>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae accusamus deleniti voluptatibus laboriosam maiores repellendus ratione? Illo quisquam, ullam mollitia architecto natus ipsam reiciendis sit itaque error maxime vitae.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            new SOpenClose('.faq-open-close');
+        })
+    </script>
+</body>
+</html>

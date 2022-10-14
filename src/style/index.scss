@@ -1,0 +1,20 @@
+.open-close {
+    .opener {
+        cursor: pointer;
+        &.open {
+            .content {
+                font-size: 16px;
+            }
+        }
+
+        &.close {
+            .content {
+                font-size: 0;
+            }
+        }
+    }
+
+    .content {
+        transition: .2s ease-out all;
+    }
+}
