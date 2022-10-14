@@ -2,7 +2,7 @@ import './style/index.scss';
 
 class SOpenClose {
     selector: string;
-    private OPEN_CLASS: string = 'OPEN';
+    private OPEN_CLASS: string = 'open';
     private CLOSE_CLASS: string = 'close';
     private OPENER_CLASS: string = 'opener';
 

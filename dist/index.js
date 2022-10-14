@@ -13,7 +13,7 @@ ___$insertStyle(".open-close .opener {\n  cursor: pointer;\n}\n.open-close .open
 
 var SOpenClose = /** @class */ (function () {
     function SOpenClose(selector) {
-        this.OPEN_CLASS = 'OPEN';
+        this.OPEN_CLASS = 'open';
         this.CLOSE_CLASS = 'close';
         this.OPENER_CLASS = 'opener';
         this.selector = selector;
