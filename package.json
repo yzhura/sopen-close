@@ -1,12 +1,13 @@
 {
-  "name": "s-open-close",
+  "name": "@yzhura/s-open-close",
   "version": "1.0.3",
   "description": "Simple Open Close",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "publish": "npm publish --access public"
   },
   "author": "yzhura",
   "license": "ISC",
